@@ -1,14 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
-  "extends": [
-    "next/core-web-vitals",
-    "eslint-config-next"
-  ],
-  "plugins": [
-    "@typescript-eslint",
-    "react",
-    "prettier"
-  ],
+  "extends": ["next/core-web-vitals", "eslint-config-next"],
+  "plugins": ["@typescript-eslint", "react", "prettier"],
   "rules": {
     "react/react-in-jsx-scope": "off"
   },
