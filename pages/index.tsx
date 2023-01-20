@@ -4,6 +4,7 @@ import ProfilePic from '@/components/ProfilePic';
 import Button from '@/components/Button';
 import Logo from '@/components/Logos';
 import Projects from '@/components/Projects';
+import Experience from '@/components/Experience';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
           </div>
           <div className="col-span-3 md:col-span-2 text-white">
             <Projects />
+            <Experience />
           </div>
         </div>
       </Container>
