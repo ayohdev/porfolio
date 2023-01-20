@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: black;
+}
+
 .sidebar {
     height: 540px;
     position: relative;
