@@ -1,13 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400&display=swap);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
     background-color: black;
+    font-family: 'Work Sans', sans-serif;
 }
 
 p {
     margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 2.5rem;
 }
 
 .sidebar {
@@ -24,7 +37,7 @@ p {
 .button {
     margin: auto;
     text-align: center;
-    max-width: 145px;
+    max-width: 160px;
     
 }
 
@@ -38,5 +51,10 @@ p {
     width: 24px;
     height: 64px;
     margin: 20px;
+}
+
+.date {
+    font-size: 14px;
+    font-style: italic;
 }
 

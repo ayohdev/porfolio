@@ -11,8 +11,8 @@ const ProfilePic = () => {
         height={220}
         className="m-auto"
       />
-      <h1 className="text-3xl">Andrew Hewitt</h1>
-      <h4>Frontend Engineer</h4>
+      <h1 className="text-3xl font-poppins font-bold mt-4">Andrew Hewitt</h1>
+      <h4 className="text-lg">Frontend Engineer</h4>
     </div>
   );
 };

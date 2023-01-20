@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout';
 import Container from '@/components/Container';
 import Image from 'next/image';
-import sp from '@/assets/projects/placeholder-graphic.png';
+import sp from '@/assets/projects/sp_graphic.png';
 import Nav from '@/components/Nav';
 
 const StackPath = () => {

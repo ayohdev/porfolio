@@ -1,28 +1,16 @@
 import Layout from '@/components/Layout';
 import Container from '@/components/Container';
 import Image from 'next/image';
-import sp from '@/assets/projects/placeholder-graphic.png';
-import Link from 'next/link';
-import { AiOutlineArrowLeft } from 'react-icons/ai';
-import SocialIcons from '@/components/SocialIcons';
+import uber from '@/assets/projects/uber_graphic.png';
+import Nav from '@/components/Nav';
 
 const Uber = () => {
   return (
     <Layout>
       <Container>
-        <div className="columns-4 gap-10 flex justify-between items-center">
-          <Link href="/" className="text-white flex">
-            <AiOutlineArrowLeft fill="white" />
-            Back
-          </Link>
-          <h1 className="col-span-2 text-center text-white font-bold text-lg md:text-3xl ">
-            Andrew Hewitt
-          </h1>
-          <SocialIcons />
-        </div>
-
+        <Nav />
         <Image
-          src={sp}
+          src={uber}
           className="hero"
           alt="Andrew Hewitt's Work on StackPath"
           width={1920}
@@ -57,8 +45,8 @@ const Uber = () => {
             I also had to work closely with the design team to ensure that the
             pages were visually accurate and consistent with the designs
             provided. I was able to use my skills in React JS, Contentful, and
-            design to deliver a website that met the client's expectations and
-            was visually pleasing.
+            design to deliver a website that met the client&apos;s expectations
+            and was visually pleasing.
           </p>
           <p>
             Overall, working with Fair was a great experience. I was able to
