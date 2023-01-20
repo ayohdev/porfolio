@@ -5,6 +5,7 @@ import Button from '@/components/Button';
 import Logo from '@/components/Logos';
 import Projects from '@/components/Projects';
 import Experience from '@/components/Experience';
+import SocialIcons from '@/components/SocialIcons';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
             <ProfilePic />
             <div className="buttons flex flex-col">
               <Button>Book a Intro Call</Button>
+              <SocialIcons />
               <Logo width={90} center={true} />
             </div>
           </div>
